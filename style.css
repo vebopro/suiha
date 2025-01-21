@@ -1,0 +1,16 @@
+/* ボタンのスタイル */
+.pink-button {
+  background-color: #ff66b2; /* かわいいピンク色 */
+  color: white; /* 文字色を白に */
+  border: none; /* 枠線をなくす */
+  padding: 10px 20px; /* ボタンのパディング */
+  font-size: 16px; /* フォントサイズ */
+  border-radius: 8px; /* 角を丸くする */
+  cursor: pointer; /* マウスカーソルが手のひらに変わる */
+  transition: background-color 0.3s; /* 背景色の変化にアニメーションを追加 */
+}
+
+/* ホバー時の効果 */
+.pink-button:hover {
+  background-color: #ff3385; /* ホバー時に少し濃いピンクに */
+}

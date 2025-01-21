@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>花萌葱スイハ音声サンプラー</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 50px;
+        }
+        button {
+            margin: 10px;
+            padding: 15px 30px;
+            font-size: 16px;
+            cursor: pointer;
+            border: 2px solid #ff66b2; /* ピンク色のボーダー */
+            border-radius: 8px; /* 角を丸くする */
+            background-color: #ff66b2; /* ピンク色 */
+            color: white;
+            transition: background-color 0.3s; /* 背景色の変化にアニメーション */
+        }
+        button:hover {
+            background-color: #ff3385; /* ホバー時に少し濃いピンク */
+        }
+    </style>
+</head>
+<body>
+    <h1>花萌葱スイハ音声サンプラー</h1>
+    <button onclick="playSound('hashiokiyo.mp3')">ハシオキヨォ！</button>
+    <script>
+        // 指定された音声ファイルを再生する関数
+        function playSound(filename) {
+            const audio = new Audio(filename);
+            audio.play();
+        }
+    </script>
+</body>
+</html>
